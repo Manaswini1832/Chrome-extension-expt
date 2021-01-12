@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "name" : "Experimental chrome extension",
+    "description" : "Experimental chrome extension",
+    "version" : "1.0",
+    "content_scripts": [
+        {
+            "matches" : [
+                "https://twitter.com/home"
+            ],
+            "js" : ["contentScript.js"]
+        }
+    ]
+}
